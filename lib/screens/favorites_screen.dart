@@ -8,6 +8,7 @@ class FavoriteScreen extends StatelessWidget {
   FavoriteScreen(this.favoriteMeals);
 
   @override
+  // ignore: missing_return
   Widget build(BuildContext context) {
     if (favoriteMeals.isEmpty) {
       return Center(

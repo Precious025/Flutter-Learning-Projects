@@ -59,7 +59,7 @@ class MealDetailScreen extends StatelessWidget {
           buildContainer(
             ListView.builder(
               itemBuilder: (ctx, index) => Card(
-                color: Theme.of(context).accentColor,
+                color: Theme.of(context).colorScheme.onSecondary,
                 child: Text(
                   selectedMeal.ingredients[index],
                 ),

@@ -72,7 +72,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Precious_Meals',
       theme: ThemeData(
         primarySwatch: Colors.pink,
-        accentColor: Colors.amber,
+        colorScheme: ColorScheme.light(),
         canvasColor: Color.fromRGBO(255, 254, 229, 1),
         fontFamily: 'Raleway',
         textTheme: ThemeData.light().textTheme.copyWith(
